@@ -7,7 +7,9 @@ This Python script performs a simple port scan on a target host to check for ope
 - Provides information on open ports.
 - Usage
 To use the port scanner, provide the target host and port range as command-line arguments:
-python port_scanner.py TargetHost StartPort EndPort
+
+```python port_scanner.py TargetHost StartPort EndPort```
+
 Replace TargetHost with the hostname or IP address of the target system, StartPort with the starting port number, and EndPort with the ending port number.
 
 ## How it Works
